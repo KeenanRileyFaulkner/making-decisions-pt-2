@@ -48,7 +48,7 @@ let evensArr = []
 
 //Code Here
 for(let i = 0; i < nums.length; ++i) {
-  if(nums[i] % 2 == 0) {
+  if(nums[i] % 2 === 0) {
     evensArr.push(nums[i]);
   }
 }
@@ -173,6 +173,8 @@ switch (letterGrade) {
     break;
   case 'F':
     console.log('The student is failing');
+  default:
+    console.log('Not an eligible grade');
 }
 
 
